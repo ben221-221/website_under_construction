@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>EnergOn Solution's Website Under Development</title>
+<title>EnergOn Solution's Website is Under Development.</title>
 <style>
   body {
     font-family: Arial, sans-serif;
@@ -18,18 +18,28 @@
 
   .container {
     text-align: center;
+    max-width: 800px; /* Example: Adjust as needed */
+    margin: 0 auto; /* Center align and adjust margins */
   }
 
   h1 {
     font-size: 2.5rem;
     color: #333;
     margin-bottom: 20px;
+    overflow: visible; /* or auto, if necessary */
+    white-space: normal; /* or nowrap, depending on your needs */
   }
 
   img {
     max-width: 100%;
     height: auto;
     margin-top: 20px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    h1 {
+      font-size: 3rem; /* Adjust as needed for larger screens */
+    }
   }
 </style>
 </head>
